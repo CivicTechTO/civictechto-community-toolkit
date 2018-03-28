@@ -2,20 +2,14 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Political Revolution Volunteer Toolkit - The Political Revolution's one stop for digital tools. Don't see your
-  app? Add it now.</title>
+<title><?php echo getenv('TOOLKIT_TITLE'); ?></title>
 
-<meta property="og:image" content="http://i.imgur.com/i523BDS.jpg"/>
-<meta property="og:url" content="http://www.revolutionkit.us"/>
+<meta property="og:url" content="<?php echo getenv('TOOLKIT_URL'); ?>"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Revolution Toolkit | Tools for a Political Revolution"/>
-<meta property="og:description" content="Resistance Ready Apps and Resources"/>
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@ourpoliticalrev">
-<meta name="twitter:creator" content="@ourpoliticalrev">
-<meta name="twitter:title" content="Revolution Toolkit | Tools for a Political Revolution">
-<meta name="twitter:description" content="Resistance Ready Apps and Resources">
-<meta name="twitter:image" content="http://i.imgur.com/i523BDS.jpg">
+<meta property="og:title" content="<?php echo getenv('TOOLKIT_TITLE'); ?>"/>
+<meta property="og:description" content="<?php echo getenv('TOOLKIT_DESCRIPTION'); ?>"/>
+<meta name="twitter:title" content="<?php echo getenv('TOOLKIT_TITLE'); ?>">
+<meta name="twitter:description" content="<?php echo getenv('TOOLKIT_DESCRIPTION'); ?>">
 
 <link href='https://fonts.googleapis.com/css?family=Work Sans:400,700,800|Lato:400,300,100,700' rel='stylesheet'
       type='text/css'>
@@ -51,9 +45,8 @@
 
 <div id='main-container'>
   <div id='title-hero'>
-    <h1 class='neuton'>Political Revolution Volunteer Toolkit</h1>
-    <h3 class='neuton'>All the online tools <span style='font-weight: 600'>you</span> can use to help progressives win
-      throughout the United States.<br/>Take your pick, volunteer! Don't see your app? <a
+  <h1 class='neuton'><?php echo getenv('TOOLKIT_TITLE'); ?></h1>
+    <h3 class='neuton'>All the resources <span style='font-weight: 600'>you</span> can use to get oriented in our community.<br/>Created or know of a helpful resources? <a
           href='https://docs.google.com/forms/d/1UAizvRCcYD13byAAMarLpYs-OC8hLfQSgXLkKXbdjZ4/viewform' target='_blank'>Submit
         it here.</a></h3>
   </div>
