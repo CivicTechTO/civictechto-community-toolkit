@@ -80,7 +80,8 @@
   <a href='https://secure.actblue.com/contribute/page/the-politicalrevolution?refcode=revkit' class='donate-button'>Donate</a>
   <span>
     Made with ❤ for <a href='http://civitech.ca' style='display: inline-block'>Civic Tech Toronto</a>.
-    <a href="https://github.com/patcon/civictechto-community-toolkit">Source code</a>
+    <a href="https://github.com/patcon/civictechto-community-toolkit">Source code.</a>
+    <a href="https://docs.google.com/spreadsheets/d/1i5HAu4uIiF9sRUJlKZEKISQlYSzlCXRTy1VlfShbraQ/edit#gid=0">Database.</a>
   </span>
 </footer>
 <script type='text/javascript' src="js/d3.js" charset="utf-8"></script>
