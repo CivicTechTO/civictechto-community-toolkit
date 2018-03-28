@@ -57,11 +57,11 @@
           <label for='All'>All</label></li>
         <li class='lato'><input type='radio' name='f' value='Official' id='Official'/>
           <label for='Official'>Official</label></li>
-        <li class='lato'><input type='radio' name='f' value='Information' id='Information'/>
+        <li class='lato'><input type='radio' name='f' value='Organizing' id='Organizing'/>
           <label for='Organizing'>Organizing</label></li>
-        <li class='lato'><input type='radio' name='f' value='Activism' id='Activism'/>
+        <li class='lato'><input type='radio' name='f' value='Speaking' id='Speaking'/>
           <label for='Speaking'>Speaking</label></li>
-        <li class='lato'><input type='radio' name='f' value='Voting' id='Voting'/>
+        <li class='lato'><input type='radio' name='f' value='Pitching' id='Pitching'/>
           <label for='Pitching'>Pitching</label></li>
       </ul>
     </form>
