@@ -65,17 +65,11 @@
         <li class='lato'><input type='radio' name='f' value='Official' id='Official'/>
           <label for='Official'>Official</label></li>
         <li class='lato'><input type='radio' name='f' value='Information' id='Information'/>
-          <label for='Information'>Information</label></li>
+          <label for='Organizing'>Organizing</label></li>
         <li class='lato'><input type='radio' name='f' value='Activism' id='Activism'/>
-          <label for='Activism'>Activism</label></li>
+          <label for='Speaking'>Speaking</label></li>
         <li class='lato'><input type='radio' name='f' value='Voting' id='Voting'/>
-          <label for='Voting'>Voting</label></li>
-        <li class='lato'><input type='radio' name='f' value='Calling' id='Calling'/>
-          <label for='Calling'>Calling</label></li>
-        <li class='lato'><input type='radio' name='f' value='PoliticalGroups' id='PoliticalGroups'/>
-          <label for='PoliticalGroups'>Political Groups</label></li>
-        <li class='lato'><input type='radio' name='f' value='Games' id='Games'/>
-          <label for='Games'>Games</label></li>
+          <label for='Pitching'>Pitching</label></li>
       </ul>
     </form>
   </div>
@@ -153,18 +147,12 @@
             switch (filter) {
               case 'Official':
                 return d.official;
-              case 'Information':
-                return d.info;
-              case 'Activism':
-                return d.activism;
-              case 'Voting':
-                return d.voting;
-              case 'Calling':
-                return d.calling;
-              case 'PoliticalGroups':
-                return d.polgroups;
-              case 'Games':
-                return d.games;
+              case 'Organizing':
+                return d.organizing;
+              case 'Speaking':
+                return d.speaking;
+              case 'Pitching':
+                return d.pitching;
             }
             ;
           });
@@ -263,12 +251,9 @@
               description: d.description,
               image: d.image,
               official: d.official == "1",
-              info: d.info == "1",
-              activism: d.activism == "1",
-              voting: d.voting == "1",
-              calling: d.calling == "1",
-              polgroups: d.polgroups == "1",
-              games: d.games == "1",
+              organizing: d.organizing == "1",
+              speaking: d.speaking == "1",
+              pitching: d.pitching == "1",
               isNew: d.isNew == "1"
             };
           },
