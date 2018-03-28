@@ -78,8 +78,10 @@
       }
     }(document, 'script', 'twitter-wjs');</script>
   <a href='https://secure.actblue.com/contribute/page/the-politicalrevolution?refcode=revkit' class='donate-button'>Donate</a>
-  <span>Made with ❤ for <a href='http://www.reddit.com/r/political_revolution'
-              style='display: inline-block'>Civic Tech Toronto</a>. <a href="https://github.com/patcon/civictechto-community-toolkit">Source code</a></span>
+  <span>
+    Made with ❤ for <a href='http://civitech.ca' style='display: inline-block'>Civic Tech Toronto</a>.
+    <a href="https://github.com/patcon/civictechto-community-toolkit">Source code</a>
+  </span>
 </footer>
 <script type='text/javascript' src="js/d3.js" charset="utf-8"></script>
 <script type='text/javascript' src='js/jquery.js'></script>
