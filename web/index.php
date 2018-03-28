@@ -12,7 +12,7 @@
   <meta name="twitter:title" content="<?php echo getenv('TOOLKIT_TITLE'); ?>">
   <meta name="twitter:description" content="<?php echo getenv('TOOLKIT_DESCRIPTION'); ?>">
 
-  <link href='https://fonts.googleapis.com/css?family=Work Sans:400,700,800|Lato:400,300,100,700' rel='stylesheet'
+  <link href='//fonts.googleapis.com/css?family=Work Sans:400,700,800|Lato:400,300,100,700' rel='stylesheet'
         type='text/css'>
   <link href='./css/volunteer-toolkit.css' rel='stylesheet' type='text/css'>
 
@@ -21,10 +21,10 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
 </meta>
 <body>
-<a class="github-fork-ribbon" href="https://github.com/patcon/civictechto-community-toolkit" data-ribbon="Contribute on GitHub" title="Contribute on GitHub">Contribute on GitHub</a>
+<a class="github-fork-ribbon" href="//github.com/patcon/civictechto-community-toolkit" data-ribbon="Contribute on GitHub" title="Contribute on GitHub">Contribute on GitHub</a>
 <div id='main-container'>
   <div id='title-hero'>
   <h1 class='neuton'><?php echo getenv('TOOLKIT_TITLE'); ?></h1>
