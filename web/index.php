@@ -25,15 +25,6 @@
 </meta>
 <body>
 <a class="github-fork-ribbon" href="https://github.com/patcon/civictechto-community-toolkit" data-ribbon="Contribute on GitHub" title="Contribute on GitHub">Contribute on GitHub</a>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
 <div id='main-container'>
   <div id='title-hero'>
   <h1 class='neuton'><?php echo getenv('TOOLKIT_TITLE'); ?></h1>
@@ -66,21 +57,6 @@
   </div>
 </div>
 <footer class='lato'>
-  <div class="fb-share-button" data-href="http://revolutionkit.us" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Frevolutionkit.us%2F&amp;src=sdkpreparse">Share</a></div>
-  &nbsp;
-  <a href="https://twitter.com/share" class="twitter-share-button" {count} data-url="http://www.revolutionkit.us"
-     data-text="All the online tools you can use to help progressives win throughout the United States. #PolRev">Tweet</a>&nbsp;
-  <script>
-    !function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-      if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.src = p + '://platform.twitter.com/widgets.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }
-    }(document, 'script', 'twitter-wjs');</script>
-  <a href='https://secure.actblue.com/contribute/page/the-politicalrevolution?refcode=revkit' class='donate-button'>Donate</a>
   <span>
     Made with ❤ for <a href='http://civitech.ca' style='display: inline-block'>Civic Tech Toronto</a>.
     <a href="https://github.com/patcon/civictechto-community-toolkit">Source code.</a>
