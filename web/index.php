@@ -37,7 +37,7 @@
     <h3 class='neuton'>
       All the resources <span style='font-weight: 600'>you</span> can use to get oriented in our community.<br/>
       Have you created a helpful resource, or do you know of an existing one?
-      <a href='https://docs.google.com/forms/d/1UAizvRCcYD13byAAMarLpYs-OC8hLfQSgXLkKXbdjZ4/viewform' target='_blank'>
+      <a href='https://docs.google.com/forms/d/e/1FAIpQLScPqlEWbCKt-jW8R4RF8SdQ33_iSmzLi7jFZ8wKC6KZussWFw/viewform' target='_blank'>
         Submit it here.
       </a>
     </h3>
