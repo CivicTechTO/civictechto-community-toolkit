@@ -1,27 +1,30 @@
 <!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title><?php echo getenv('TOOLKIT_TITLE'); ?></title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title><?php echo getenv('TOOLKIT_TITLE'); ?></title>
+  <meta property="og:url" content="<?php echo getenv('TOOLKIT_URL'); ?>"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="<?php echo getenv('TOOLKIT_TITLE'); ?>"/>
+  <meta property="og:description" content="<?php echo getenv('TOOLKIT_DESCRIPTION'); ?>"/>
+  <meta name="twitter:title" content="<?php echo getenv('TOOLKIT_TITLE'); ?>">
+  <meta name="twitter:description" content="<?php echo getenv('TOOLKIT_DESCRIPTION'); ?>">
 
-<meta property="og:url" content="<?php echo getenv('TOOLKIT_URL'); ?>"/>
-<meta property="og:type" content="website"/>
-<meta property="og:title" content="<?php echo getenv('TOOLKIT_TITLE'); ?>"/>
-<meta property="og:description" content="<?php echo getenv('TOOLKIT_DESCRIPTION'); ?>"/>
-<meta name="twitter:title" content="<?php echo getenv('TOOLKIT_TITLE'); ?>">
-<meta name="twitter:description" content="<?php echo getenv('TOOLKIT_DESCRIPTION'); ?>">
+  <link href='https://fonts.googleapis.com/css?family=Work Sans:400,700,800|Lato:400,300,100,700' rel='stylesheet'
+        type='text/css'>
+  <link href='./css/volunteer-toolkit.css' rel='stylesheet' type='text/css'>
 
-<link href='https://fonts.googleapis.com/css?family=Work Sans:400,700,800|Lato:400,300,100,700' rel='stylesheet'
-      type='text/css'>
-<link href='./css/volunteer-toolkit.css' rel='stylesheet' type='text/css'>
-
-<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
-<link rel="manifest" href="img/icons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="manifest" href="img/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+</meta>
 <body>
+<a class="github-fork-ribbon" href="https://github.com/patcon/civictechto-community-toolkit" data-ribbon="Contribute on GitHub" title="Contribute on GitHub">Contribute on GitHub</a>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -333,3 +336,4 @@
 
 </script>
 </body>
+</html>
