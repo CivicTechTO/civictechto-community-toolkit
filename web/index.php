@@ -46,9 +46,13 @@
 <div id='main-container'>
   <div id='title-hero'>
   <h1 class='neuton'><?php echo getenv('TOOLKIT_TITLE'); ?></h1>
-    <h3 class='neuton'>All the resources <span style='font-weight: 600'>you</span> can use to get oriented in our community.<br/>Created or know of a helpful resources? <a
-          href='https://docs.google.com/forms/d/1UAizvRCcYD13byAAMarLpYs-OC8hLfQSgXLkKXbdjZ4/viewform' target='_blank'>Submit
-        it here.</a></h3>
+    <h3 class='neuton'>
+      All the resources <span style='font-weight: 600'>you</span> can use to get oriented in our community.<br/>
+      Have you created a helpful resource, or do you know of an existing one?
+      <a href='https://docs.google.com/forms/d/1UAizvRCcYD13byAAMarLpYs-OC8hLfQSgXLkKXbdjZ4/viewform' target='_blank'>
+        Submit it here.
+      </a>
+    </h3>
   </div>
   <div id='filters'>
     <form id='toolkit-filters'>
