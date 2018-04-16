@@ -24,7 +24,7 @@
       'event_category': 'outbound',
       'event_label': url,
       'transport_type': 'beacon',
-      'event_callback': function(){document.location = url;}
+      'event_callback': function(){document.location = href;}
     });
   }
   </script>
@@ -165,11 +165,11 @@
           })
           .html(function (d, i) {
             var html = "<div class='site-image' style='background-image: url(" + d.image + ")'>"
-              + "<a class='lato' target='_blank' onclick=\"trackOutboundLink('" + d.url + "'); return false;\" href='" + d.url + "'></a></div>"
+              + "<a class='lato' target='_blank' onclick=\"trackOutboundLink('" + d.url + "'); return true;\" href='" + d.url + "'></a></div>"
               + "<div class='content'>"
-              + "<h2 class='neuton'><a target='_blank' href='" + d.url + "'>" + d.title + "</a></h2>"
+              + "<h2 class='neuton'><a target='_blank' onclick=\"trackOutboundLink('" + d.url + "'); return true;\" href='" + d.url + "'>" + d.title + "</a></h2>"
               + "<p class='lato'>" + d.description + "</p>"
-              + "<a class='lato' target='_blank' onclick=\"trackOutboundLink('" + d.url + "'); return false;\" href='" + d.url + "'>Go to site</a>";
+              + "<a class='lato' target='_blank' onclick=\"trackOutboundLink('" + d.url + "'); return true;\" href='" + d.url + "'>Go to site</a>";
 
             if (d.isNew) {
               html = "<div class='is-new-tag'>New!</div>" + html;
