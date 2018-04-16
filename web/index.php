@@ -10,6 +10,24 @@
 
     gtag('config', '<?php echo getenv('GOOGLE_ANALYTICS_ID'); ?>');
   </script>
+  <script>
+  /**
+  * Function that tracks a click on an outbound link in Analytics.
+  * This function takes a valid URL string as an argument, and uses that URL string
+  * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+  * using 'navigator.sendBeacon' in browser that support it.
+  *
+  * See: https://support.google.com/analytics/answer/7478520?hl=en
+  */
+  var trackOutboundLink = function(url) {
+    gtag('event', 'click', {
+      'event_category': 'outbound',
+      'event_label': url,
+      'transport_type': 'beacon',
+      'event_callback': function(){document.location = url;}
+    });
+  }
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title><?php echo getenv('TOOLKIT_TITLE'); ?></title>
@@ -146,11 +164,12 @@
             return d.isNew;
           })
           .html(function (d, i) {
-            var html = "<div class='site-image' style='background-image: url(" + d.image + ")'><a class='lato' target='_blank' href='" + d.url + "'></a></div>"
+            var html = "<div class='site-image' style='background-image: url(" + d.image + ")'>"
+              + "<a class='lato' target='_blank' onclick=\"trackOutboundLink('" + d.url + "'); return false;\" href='" + d.url + "'></a></div>"
               + "<div class='content'>"
               + "<h2 class='neuton'><a target='_blank' href='" + d.url + "'>" + d.title + "</a></h2>"
               + "<p class='lato'>" + d.description + "</p>"
-              + "<a class='lato' href='" + d.url + "' target='_blank'>Go to site</a>";
+              + "<a class='lato' target='_blank' onclick=\"trackOutboundLink('" + d.url + "'); return false;\" href='" + d.url + "'>Go to site</a>";
 
             if (d.isNew) {
               html = "<div class='is-new-tag'>New!</div>" + html;
