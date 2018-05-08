@@ -85,7 +85,7 @@
 </div>
 <footer class='lato'>
   <span>
-    Made with ❤ for <a href='http://civitech.ca' style='display: inline-block'>Civic Tech Toronto</a>.
+    Made with ❤ for <a href='<?php echo getenv('TOOLKIT_URL'); ?>' style='display: inline-block'>Civic Tech Toronto</a>.
     <a href="https://github.com/patcon/civictechto-community-toolkit">Source code.</a>
     <a href="https://docs.google.com/spreadsheets/d/1i5HAu4uIiF9sRUJlKZEKISQlYSzlCXRTy1VlfShbraQ/edit#gid=0">Database.</a>
   </span>
